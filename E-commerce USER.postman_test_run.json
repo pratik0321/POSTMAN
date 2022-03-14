@@ -1,0 +1,117 @@
+{
+	"id": "4dff9fc4-d9f5-462a-898e-8944cdbf4559",
+	"name": "E-commerce USER",
+	"timestamp": "2022-03-14T17:15:52.518Z",
+	"collection_id": "19955302-67a1812c-ad49-4cdc-81b7-34faee6650b3",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "242a58c4-bc4e-48f9-84a8-0a90f7f4ef01",
+			"name": "login",
+			"url": "https://ecommerceservice.herokuapp.com/user/login",
+			"time": 3310,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"expiresIn": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"expiresIn": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3310
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"expiresIn": true
+				}
+			]
+		},
+		{
+			"id": "4be3c843-b44c-4a5c-85de-63ed4a377868",
+			"name": "get all users",
+			"url": "https://ecommerceservice.herokuapp.com/user",
+			"time": 1514,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1514
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ab5bec16-53d6-4d92-a216-a56bbef55bbd",
+			"name": "delete user",
+			"url": "https://ecommerceservice.herokuapp.com/user/6229c58db48d5a0017a5bd81",
+			"time": 664,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				664
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5488,
+	"collection": {
+		"requests": [
+			{
+				"id": "242a58c4-bc4e-48f9-84a8-0a90f7f4ef01",
+				"method": "POST"
+			},
+			{
+				"id": "4be3c843-b44c-4a5c-85de-63ed4a377868",
+				"method": "GET"
+			},
+			{
+				"id": "ab5bec16-53d6-4d92-a216-a56bbef55bbd",
+				"method": "DELETE"
+			}
+		]
+	}
+}
